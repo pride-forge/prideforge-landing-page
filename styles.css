@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+body,
+main {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+body {
+    height: 100vh;
+    justify-content: flex-start;
+}
+
+main {
+    justify-content: space-between;
+    flex: 1;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #D4AF37;
+}
+
+header,
+.hero,
+footer {
+    background-color: #1C1C1E;
+}
+
+header {
+    color: #D4AF37;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 200px;
+}
+
+footer {
+    padding: 50px 200px;
+    color: #B0B0B0;
+    text-align: center;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 200px;
+}
+
+.hero > div {
+    max-width: 500px;
+}
+
+.image-placeholder {
+    background-color: grey;
+    min-width: 400px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div > h1 {
+    color: white;
+    padding: 10px 0px;
+}
+
+div > p {
+    color: #B0B0B0;
+}
+
+div > button {
+    background-color: #6A0DAD;
+    color: white;
+    margin: 20px 0px;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: solid 1px #6A0DAD;
+
+}
+
+div > button:hover {
+    background-color: #6A0DAD;
+    color: white;
+    margin: 20px 0px;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: solid 1px gold;
+}
+
+.cards-section {
+    padding: 100px 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+} 
+
+.cards-section > h2 {
+    color: #1C1C1E;
+    margin-bottom: 50px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    color: #333333;
+}
+
+.card-image {
+    border: solid 3px #6A0DAD;
+    border-radius: 8px;
+    min-width: 100px;
+    min-height: 100px;
+    width: 200px;
+    height: 200px;
+    margin: 10px 0px;
+}
+
+.card-image:hover {
+    border-color: gold;
+}
+
+.testimonial {
+    background-color: #F4F4F4;
+    padding: 100px 200px;
+
+}
+
+.quote {
+    color: #1C1C1E;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.quote-author {
+    color: #6A0DAD;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.cti-container {
+    background-color: #6A0DAD;
+    margin: 100px 200px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0px;
+}
+
+.cti-text > h3 {
+    color: white;
+}
+
+.cti-container > button {
+    background-color: transparent;
+    border: solid 1px white;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 8px;
+    font-weight: 800;
+}
